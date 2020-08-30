@@ -1,0 +1,238 @@
+
+<!-- Credits:- Images are from unsplash -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <!-- Import google Icon font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Materialise Website Template</title>
+
+    <style>
+        header{
+            background: url(img/stefan-stefancik-pzA7QWNCIYg-unsplash.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .section{
+            padding-top: 4vw;
+            padding-bottom: 4vw;
+        }
+        .tabs .indicator{
+            background-color: #1a237e;
+        }
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+            background: transparent;
+        }
+        .nav-wrapper{
+            box-shadow: none !important;
+        }
+        @media screen and (max-width: 670px) {
+            header{
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">YourWeb</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                        <i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- photo / grid -->
+    <section class="container section scrollspy" id="service">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/windows-C6T6vr1sQI0-unsplash.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-dark-4">Feature</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo asperiores 
+                    modi dicta iusto a magnam rem distinctio fugit hic veniam veritatis culpa pariatur atque 
+                    ipsum iure aliquam, libero adipisci.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="img/igor-miske-JVSgcV8_vb4-unsplash.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align">
+                <h2 class="indigo-text text-dark-4">Feature</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo asperiores 
+                    modi dicta iusto a magnam rem distinctio fugit hic veniam veritatis culpa pariatur atque 
+                    ipsum iure aliquam, libero adipisci.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-dark-4">Feature</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias explicabo asperiores 
+                    modi dicta iusto a magnam rem distinctio fugit hic veniam veritatis culpa pariatur atque 
+                    ipsum iure aliquam, libero adipisci.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/ameen-almayuf-9676FnILRZA-unsplash.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="container section scrollspy" id="about">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">Company's Info</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eaque aspernatur magni cum ea quos, assumenda corporis repudiandae inventore odio officiis, ad natus repellendus laudantium ut architecto nisi, alias veniam?</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#vision" class="indigo-text text-darken-4">Vision</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#mission" class="indigo-text text-darken-4">Mission</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="vision">
+                    <p class="flow-text indigo-text text-darken-4">Vision</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit dignissimos, blanditiis doloremque nesciunt sunt ab atque voluptatibus, sint optio consequuntur natus assumenda labore officia iusto mollitia aspernatur. Alias, fugiat!</p>
+                </div>
+                <div class="col s12" id="mission">
+                    <p class="flow-text indigo-text text-darken-4">Mission</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit dignissimos, blanditiis doloremque nesciunt sunt ab atque voluptatibus, sint optio consequuntur natus assumenda labore officia iusto mollitia aspernatur. Alias, fugiat!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/igor-miske-JVSgcV8_vb4-unsplash.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">
+                    Get In Touch
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea incidunt est impedit corrupti sint explicabo asperiores, quia nesciunt cum iste iusto accusamus? Magnam nihil repellendus a fugiat illo atque?</p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea incidunt est impedit corrupti sint explicabo asperiores, quia nesciunt cum iste iusto accusamus? Magnam nihil repellendus a fugiat illo atque?</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" name="" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea name="" id="message" class="materialize-textarea" ></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-feild">
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Do you would Like to recive Future Mail...</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-feild center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos pariatur neque? Illo quibusdam nulla adipisci excepturi quia, esse suscipit officiis amet porro. Sed, quia laudantium impedit maxime perferendis alias!</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Follow Us On:</h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">Linked In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">
+                &copy; 2020 No Copy Right
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
